@@ -128,7 +128,7 @@ def circle(x_centre, y_centre, r,fig_no):
 	pk=5/4-r
 	pixel(xk+x_centre,yk+y_centre)
 	color_plot_list[xk+x_centre][yk+y_centre]=1
-	fig_plot_list=fig_no
+	fig_plot_list[xk+x_centre][yk+y_centre]=fig_no
 	pixel(yk+x_centre,xk+y_centre)
 	color_plot_list[yk+x_centre][xk+y_centre]=1
 	fig_plot_list[yk+x_centre][xk+y_centre]=fig_no
@@ -157,30 +157,30 @@ def circle(x_centre, y_centre, r,fig_no):
 		else:
 			yk=yk-1
 			pk=pk+2*xk-2*yk+1
-	pixel(xk+x_centre,yk+y_centre)
-	color_plot_list[xk+x_centre][yk+y_centre]=1
-	fig_plot_list[xk+x_centre][yk+y_centre]=fig_no
-	pixel(yk+x_centre,xk+y_centre)
-	color_plot_list[yk+x_centre][xk+y_centre]=1
-	fig_plot_list[yk+x_centre][xk+y_centre]=fig_no
-	pixel(yk+x_centre,-xk+y_centre)
-	color_plot_list[yk+x_centre][-xk+y_centre]=1
-	fig_plot_list[yk+x_centre][-xk+y_centre]=fig_no
-	pixel(xk+x_centre,-yk+y_centre)
-	color_plot_list[xk+x_centre][-yk+y_centre]=1
-	fig_plot_list[xk+x_centre][-yk+y_centre]=fig_no
-	pixel(-xk+x_centre,-yk+y_centre)
-	color_plot_list[-xk+x_centre][-yk+y_centre]=1
-	fig_plot_list[-xk+x_centre][-yk+y_centre]=fig_no
-	pixel(-yk+x_centre,-xk+y_centre)
-	color_plot_list[-yk+x_centre][-xk+y_centre]=1
-	fig_plot_list[-yk+x_centre][-xk+y_centre]=fig_no
-	pixel(-yk+x_centre,xk+y_centre)
-	color_plot_list[-yk+x_centre][xk+y_centre]=1
-	fig_plot_list[-yk+x_centre][xk+y_centre]=fig_no
-	pixel(-xk+x_centre,yk+y_centre)
-	color_plot_list[-xk+x_centre][yk+y_centre]=1
-	fig_plot_list[-xk+x_centre][yk+y_centre]=fig_no
+		pixel(xk+x_centre,yk+y_centre)
+		color_plot_list[xk+x_centre][yk+y_centre]=1
+		fig_plot_list[xk+x_centre][yk+y_centre]=fig_no
+		pixel(yk+x_centre,xk+y_centre)
+		color_plot_list[yk+x_centre][xk+y_centre]=1
+		fig_plot_list[yk+x_centre][xk+y_centre]=fig_no
+		pixel(yk+x_centre,-xk+y_centre)
+		color_plot_list[yk+x_centre][-xk+y_centre]=1
+		fig_plot_list[yk+x_centre][-xk+y_centre]=fig_no
+		pixel(xk+x_centre,-yk+y_centre)
+		color_plot_list[xk+x_centre][-yk+y_centre]=1
+		fig_plot_list[xk+x_centre][-yk+y_centre]=fig_no
+		pixel(-xk+x_centre,-yk+y_centre)
+		color_plot_list[-xk+x_centre][-yk+y_centre]=1
+		fig_plot_list[-xk+x_centre][-yk+y_centre]=fig_no
+		pixel(-yk+x_centre,-xk+y_centre)
+		color_plot_list[-yk+x_centre][-xk+y_centre]=1
+		fig_plot_list[-yk+x_centre][-xk+y_centre]=fig_no
+		pixel(-yk+x_centre,xk+y_centre)
+		color_plot_list[-yk+x_centre][xk+y_centre]=1
+		fig_plot_list[-yk+x_centre][xk+y_centre]=fig_no
+		pixel(-xk+x_centre,yk+y_centre)
+		color_plot_list[-xk+x_centre][yk+y_centre]=1
+		fig_plot_list[-xk+x_centre][yk+y_centre]=fig_no
 
                                                                          #generating ellipse
 def ellipse(a,b,rx,ry,fig_no):
@@ -516,4 +516,4 @@ def inside_outside_test(x,y,fig_no):
                                                                                #displaying_picture
 def display():
 	plt.gca().set_aspect('equal',adjustable='box')
-	plt.show()	
+	plt.show()
