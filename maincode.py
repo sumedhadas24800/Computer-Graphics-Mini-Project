@@ -59,13 +59,13 @@ while(c=='y' or c=='Y'):
 			fig_list.append(fig_no)
 		print("No point must cross coordinate by x:150 y:150")
 		print(" ")
-		x_center=int(input("Enter x coordinate of circle center: "))
-		y_center=int(input("Enter y coordinate of circle center: "))
+		x_centre=int(input("Enter x coordinate of circle centre: "))
+		y_centre=int(input("Enter y coordinate of circle centre: "))
 		radius=int(input("Enter the radius of circle: "))
-		if x_center>150 or y_center>150 or x_center+radius>150 or y_center+radius>150 or x_center<0 or y_center<0 or x_center-radius<0 or y_center-radius<0:
+		if x_centre>150 or y_centre>150 or x_centre+radius>150 or y_centre+radius>150 or x_centre<0 or y_centre<0 or x_centre-radius<0 or y_centre-radius<0:
 			print("Enter correct input!!!")
 		else:
-			sin.circle(x_center,y_center,radius,fig_no)
+			sin.circle(x_centre,y_centre,radius,fig_no)
 	elif i==4:
 		print(" ")
 		fig_no=int(input("Enter figure no: "))
@@ -73,13 +73,13 @@ while(c=='y' or c=='Y'):
 			fig_list.append(fig_no)
 		print("No point must cross coordinate by x:150 y:150")
 		print(" ")
-		x_center=int(input("Enter x coordinate of circle center: "))
-		y_center=int(input("Enter y coordinate of circle center: "))
+		x_centre=int(input("Enter x coordinate of circle centre: "))
+		y_centre=int(input("Enter y coordinate of circle centre: "))
 		radius=int(input("Enter the radius of circle: "))
-		if x_center>150 or y_center>150 or x_center+radius>150 or y_center+radius>150 or x_center<0 or y_center<0 or x_center-radius<0:
+		if x_centre>150 or y_centre>150 or x_centre+radius>150 or y_centre+radius>150 or x_centre<0 or y_centre<0 or x_centre-radius<0:
 			print("Enter correct input!!!")
 		else:
-			sin.top_semi_ellipse(x_center,y_center,radius,radius,fig_no)
+			sin.top_semi_ellipse(x_centre,y_centre,radius,radius,fig_no)
 	elif i==5:
 		print(" ")
 		fig_no=int(input("Enter figure no: "))
@@ -87,13 +87,13 @@ while(c=='y' or c=='Y'):
 			fig_list.append(fig_no)
 		print("No point must cross coordinate by x:150 y:150")
 		print(" ")
-		x_center=int(input("Enter x coordinate of circle center: "))
-		y_center=int(input("Enter y coordinate of circle center: "))
+		x_centre=int(input("Enter x coordinate of circle centre: "))
+		y_centre=int(input("Enter y coordinate of circle centre: "))
 		radius=int(input("Enter the radius of circle: "))
-		if x_center>150 or y_center>150 or x_center+radius>150 or x_center<0 or y_center<0 or x_center-radius<0 or y_center-radius<0:
+		if x_centre>150 or y_centre>150 or x_centre+radius>150 or x_centre<0 or y_centre<0 or x_centre-radius<0 or y_centre-radius<0:
 			print("Enter correct input!!!")
 		else:
-			sin.down_semi_ellipse(x_center,y_center,radius,radius,fig_no)
+			sin.down_semi_ellipse(x_centre,y_centre,radius,radius,fig_no)
 	elif i==6:
 		print(" ")
 		fig_no=int(input("Enter figure no: "))
@@ -101,13 +101,13 @@ while(c=='y' or c=='Y'):
 			fig_list.append(fig_no)
 		print("No point must cross coordinate by x:150 y:150")
 		print(" ")
-		x_center=int(input("Enter x coordinate of circle center: "))
-		y_center=int(input("Enter y coordinate of circle center: "))
+		x_centre=int(input("Enter x coordinate of circle centre: "))
+		y_centre=int(input("Enter y coordinate of circle centre: "))
 		radius=int(input("Enter the radius of circle: "))
-		if x_center>150 or y_center>150 or x_center+radius>150 or y_center+radius>150 or y_center-radius<0 or y_center<0 or x_center<0:
+		if x_centre>150 or y_centre>150 or x_centre+radius>150 or y_centre+radius>150 or y_centre-radius<0 or y_centre<0 or x_centre<0:
 			print("Enter correct input!!!")
 		else:
-			sin.right_semi_ellipse(x_center,y_center,radius,radius,fig_no)
+			sin.right_semi_ellipse(x_centre,y_centre,radius,radius,fig_no)
 	elif i==7:
 		print(" ")
 		fig_no=int(input("Enter figure no: "))
@@ -115,13 +115,13 @@ while(c=='y' or c=='Y'):
 			fig_list.append(fig_no)
 		print("No point must cross coordinate by x:150 y:150")
 		print(" ")
-		x_center=int(input("Enter x coordinate of circle center: "))
-		y_center=int(input("Enter y coordinate of circle center: "))
+		x_centre=int(input("Enter x coordinate of circle centre: "))
+		y_centre=int(input("Enter y coordinate of circle centre: "))
 		radius=int(input("Enter the radius of circle: "))
-		if x_center>150 or y_center>150 or y_center+radius>150 or y_center<0 or x_center<0 or y_center-radius<0 or x_center-radius<0 :
+		if x_centre>150 or y_centre>150 or y_centre+radius>150 or y_centre<0 or x_centre<0 or y_centre-radius<0 or x_centre-radius<0 :
 			print("Enter correct input!!!")
 		else:
-			sin.left_semi_ellipse(x_center,y_center,radius,radius,fig_no)
+			sin.left_semi_ellipse(x_centre,y_centre,radius,radius,fig_no)
 	elif i==8:
 		print(" ")
 		fig_no=int(input("Enter figure no: "))
@@ -129,14 +129,14 @@ while(c=='y' or c=='Y'):
 			fig_list.append(fig_no)
 		print("No point must cross coordinate by x:150 y:150")
 		print(" ")
-		x_center=int(input("Enter x coordinate of circle center: "))
-		y_center=int(input("Enter y coordinate of circle center: "))
+		x_centre=int(input("Enter x coordinate of circle centre: "))
+		y_centre=int(input("Enter y coordinate of circle centre: "))
 		rx=int(input("Enter the major axis of the ellipse: "))
 		ry=int(input("Enter the minor axis of the ellipse: "))
-		if x_center>150 or y_center>150 or x_center+rx>150 or y_center+ry>150 or x_center<0 or y_center<0 or x_center-rx<0 or y_center-ry<0:
+		if x_centre>150 or y_centre>150 or x_centre+rx>150 or y_centre+ry>150 or x_centre<0 or y_centre<0 or x_centre-rx<0 or y_centre-ry<0:
 			print("Enter correct input!!!")
 		else:
-			sin.ellipse(x_center,y_center,rx,ry,fig_no)
+			sin.ellipse(x_centre,y_centre,rx,ry,fig_no)
 	elif i==9:
 		print(" ")
 		fig_no=int(input("Enter figure no: "))
@@ -144,14 +144,14 @@ while(c=='y' or c=='Y'):
 			fig_list.append(fig_no)
 		print("No point must cross coordinate by x:150 y:150")
 		print(" ")
-		x_center=int(input("Enter x coordinate of ellipse center: "))
-		y_center=int(input("Enter y coordinate of ellipse center: "))
+		x_centre=int(input("Enter x coordinate of ellipse centre: "))
+		y_centre=int(input("Enter y coordinate of ellipse centre: "))
 		rx=int(input("Enter the major axis of the ellipse: "))
 		ry=int(input("Enter the minor axis of the ellipse: "))
-		if x_center>150 or y_center>150 or x_center+rx>150 or y_center+ry>150 or x_center<0 or y_center<0 or x_center-rx<0:
+		if x_centre>150 or y_centre>150 or x_centre+rx>150 or y_centre+ry>150 or x_centre<0 or y_centre<0 or x_centre-rx<0:
 			print("Enter correct input!!!")
 		else:
-			sin.top_semi_ellipse(x_center,y_center,rx,ry,fig_no)
+			sin.top_semi_ellipse(x_centre,y_centre,rx,ry,fig_no)
 	elif i==10:
 		print(" ")
 		fig_no=int(input("Enter figure no: "))
@@ -159,14 +159,14 @@ while(c=='y' or c=='Y'):
 			fig_list.append(fig_no)
 		print("No point must cross coordinate by x:150 y:150")
 		print(" ")
-		x_center=int(input("Enter x coordinate of ellipse center: "))
-		y_center=int(input("Enter y coordinate of ellipse center: "))
+		x_centre=int(input("Enter x coordinate of ellipse centre: "))
+		y_centre=int(input("Enter y coordinate of ellipse centre: "))
 		rx=int(input("Enter the major axis of the ellipse: "))
 		ry=int(input("Enter the minor axis of the ellipse: "))
-		if x_center>150 or y_center>150 or x_center+rx>150 or x_center<0 or y_center<0 or y_center-ry<0 or x_center-rx<0:
+		if x_centre>150 or y_centre>150 or x_centre+rx>150 or x_centre<0 or y_centre<0 or y_centre-ry<0 or x_centre-rx<0:
 			print("Enter correct input!!!")
 		else:
-			sin.down_semi_ellipse(x_center,y_center,rx,ry,fig_no)
+			sin.down_semi_ellipse(x_centre,y_centre,rx,ry,fig_no)
 	elif i==11:
 		print(" ")
 		fig_no=int(input("Enter figure no: "))
@@ -174,14 +174,14 @@ while(c=='y' or c=='Y'):
 			fig_list.append(fig_no)
 		print("No point must cross coordinate by x:150 y:150")
 		print(" ")
-		x_center=int(input("Enter x coordinate of ellipse center: "))
-		y_center=int(input("Enter y coordinate of ellipse center: "))
+		x_centre=int(input("Enter x coordinate of ellipse centre: "))
+		y_centre=int(input("Enter y coordinate of ellipse centre: "))
 		rx=int(input("Enter the major axis of the ellipse: "))
 		ry=int(input("Enter the minor axis of the ellipse: "))
-		if x_center>150 or y_center>150 or x_center+rx>150 or y_center+ry>150 or x_center<0 or y_center<0 or y_center-ry<0:
+		if x_centre>150 or y_centre>150 or x_centre+rx>150 or y_centre+ry>150 or x_centre<0 or y_centre<0 or y_centre-ry<0:
 			print("Enter correct input!!!")
 		else:
-			sin.right_semi_ellipse(x_center,y_center,rx,ry,fig_no)
+			sin.right_semi_ellipse(x_centre,y_centre,rx,ry,fig_no)
 	elif i==12:
 		print(" ")
 		fig_no=int(input("Enter figure no: "))
@@ -189,14 +189,14 @@ while(c=='y' or c=='Y'):
 			fig_list.append(fig_no)
 		print("No point must cross coordinate by x:150 y:150")
 		print(" ")
-		x_center=int(input("Enter x coordinate of ellipse center: "))
-		y_center=int(input("Enter y coordinate of ellipse center: "))
+		x_centre=int(input("Enter x coordinate of ellipse centre: "))
+		y_centre=int(input("Enter y coordinate of ellipse centre: "))
 		rx=int(input("Enter the major axis of the ellipse: "))
 		ry=int(input("Enter the minor axis of the ellipse: "))
-		if x_center>150 or y_center>150 or y_center+ry>150 or x_center<0 or y_center<0 or x_center-rx<0 or y_center-ry<0:
+		if x_centre>150 or y_centre>150 or y_centre+ry>150 or x_centre<0 or y_centre<0 or x_centre-rx<0 or y_centre-ry<0:
 			print("Enter correct input!!!")
 		else:
-			sin.left_semi_ellipse(x_center,y_center,rx,ry,fig_no)
+			sin.left_semi_ellipse(x_centre,y_centre,rx,ry,fig_no)
 	elif i==13:
 		print(" ")
 		print("No point must cross coordinate by x:150 y:150")
@@ -223,8 +223,8 @@ while(c=='y' or c=='Y'):
 		if x>150 or y>150 or x<0 or y<0:
 			print("Enter correct input!!!")
 		else:
-			print("1. Syk Blue")
-			print("2. Pussian Blue")
+			print("1. Sky Blue")
+			print("2. Prussian Blue")
 			print("3. Light Green")
 			print("4. Deep Green")
 			print("5. Red")
@@ -259,6 +259,5 @@ while(c=='y' or c=='Y'):
 			else:
 				print("Enter correct color number!!!")
 		
-	c=input("Want to insert another figure(y/n): ")
+	c=input("Want to insert another figure or fill color (y/n): ")
 sin.display()
-		
