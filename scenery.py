@@ -1,3 +1,5 @@
+import sys
+sys.setrecursionlimit(10**8)
 import matplotlib.pyplot as plt
                                                            #pre-requisite variables
 x_lower=0                                                  #lower limit of x axis
