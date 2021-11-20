@@ -21,7 +21,14 @@ color_plot_list = [[0]*cols]*rows                          #1 if pixel color is 
 color_plot_list = [ k.copy() for k in color_plot_list ]
 fig_plot_list=[[0]*cols]*rows                              #tell occupying figure of a pixel
 fig_plot_list=[ k.copy() for k in color_plot_list ]
-                                                           #function to plot a pixel at a desired position
+
+for i in range(0,151):
+	color_plot_list[0][i]=1
+	color_plot_list[150][i]=1
+	color_plot_list[i][0]=1
+	color_plot_list[i][150]=1 
+ 
+                                                          #function to plot a pixel at a desired position
 def pixel(x,y):
     plt.plot(x,y,marker=shape,ms=pix,color=col)
                                                            #bresenham_line_drawing_algo    
