@@ -1,5 +1,6 @@
 import scenery as sin
 fig_list=[]
+sin.rectangle(0,0,150,150,-1)
 print("Let's draw some thing!")
 c='y'
 while(c=='y' or c=='Y'):
