@@ -16,19 +16,11 @@ col='black'                                                #pixel color
 plt.rcParams['figure.figsize'] = [fig_size,fig_size]
 plt.xlim(x_lower,x_upper)
 plt.ylim(y_lower,y_upper)
-rows, cols = (x_upper+1,y_upper+1)                                   
+rows, cols = (160,160)                                   
 color_plot_list = [[0]*cols]*rows                          #1 if pixel color is black
 color_plot_list = [ k.copy() for k in color_plot_list ]
 fig_plot_list=[[0]*cols]*rows                              #tell occupying figure of a pixel
 fig_plot_list=[ k.copy() for k in color_plot_list ]
-
-for y in range(0,y_upper+1):                               #creating imaginary boundary
-    color_plot_list[0][y]=1
-    color_plot_list[x_upper][y]=1
-for x in range(0,x_upper+1):
-    color_plot_list[x][0]=1
-    color_plot_list[x][y_upper]=1
- 
                                                           #function to plot a pixel at a desired position
 def pixel(x,y):
     plt.plot(x,y,marker=shape,ms=pix,color=col)
