@@ -16,7 +16,7 @@ while(c=='y' or c=='Y'):
 	print("10.Draw a bottom semi ellipse")
 	print("11.Draw a right semi ellipse")
 	print("12.Draw a left semi ellipse")
-	print("13.Inside Outside Tes")
+	print("13.Inside Outside Test")
 	print("14.Fill color")
 	print(" ")
 	i=int(input("Enter your option: "))
